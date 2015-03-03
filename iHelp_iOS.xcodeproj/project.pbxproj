@@ -46,7 +46,7 @@
 		4448A11D1AA5F0C200D05655 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		4448A11E1AA5F0C200D05655 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		4448A1221AA5F17500D05655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = iHelp_iOS/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		4448A1241AA5F18800D05655 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4448A1251AA5F5A900D05655 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "iHelp_iOS/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,7 +278,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4448A1221AA5F17500D05655 /* Base */,
-				4448A1241AA5F18800D05655 /* zh-Hant */,
+				4448A1251AA5F5A900D05655 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			path = ..;
