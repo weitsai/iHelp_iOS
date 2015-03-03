@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4448A0D31A9DA77300D05655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448A0D21A9DA77300D05655 /* main.m */; };
 		4448A0D61A9DA77300D05655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448A0D51A9DA77300D05655 /* AppDelegate.m */; };
-		4448A0D91A9DA77300D05655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448A0D81A9DA77300D05655 /* ViewController.m */; };
 		4448A0DC1A9DA77300D05655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4448A0DA1A9DA77300D05655 /* Main.storyboard */; };
 		4448A0DE1A9DA77300D05655 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4448A0DD1A9DA77300D05655 /* Images.xcassets */; };
 		4448A0E11A9DA77300D05655 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4448A0DF1A9DA77300D05655 /* LaunchScreen.xib */; };
 		4448A0ED1A9DA77300D05655 /* iHelp_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448A0EC1A9DA77300D05655 /* iHelp_iOSTests.m */; };
+		4448A11A1AA5DC4200D05655 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448A1191AA5DC4200D05655 /* HomeViewController.m */; };
+		4448A11C1AA5EA9D00D05655 /* Preference.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4448A11B1AA5EA9D00D05655 /* Preference.plist */; };
+		4448A1231AA5F17500D05655 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4448A1211AA5F17500D05655 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,19 @@
 		4448A0D21A9DA77300D05655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4448A0D41A9DA77300D05655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4448A0D51A9DA77300D05655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4448A0D71A9DA77300D05655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4448A0D81A9DA77300D05655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4448A0DB1A9DA77300D05655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4448A0DD1A9DA77300D05655 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4448A0E01A9DA77300D05655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4448A0E61A9DA77300D05655 /* iHelp_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHelp_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4448A0EB1A9DA77300D05655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4448A0EC1A9DA77300D05655 /* iHelp_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHelp_iOSTests.m; sourceTree = "<group>"; };
+		4448A1181AA5DC4200D05655 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4448A1191AA5DC4200D05655 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4448A11B1AA5EA9D00D05655 /* Preference.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Preference.plist; sourceTree = "<group>"; };
+		4448A11D1AA5F0C200D05655 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		4448A11E1AA5F0C200D05655 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4448A1221AA5F17500D05655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = iHelp_iOS/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4448A1241AA5F18800D05655 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +88,10 @@
 		4448A0CF1A9DA77300D05655 /* iHelp_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4448A1181AA5DC4200D05655 /* HomeViewController.h */,
+				4448A1191AA5DC4200D05655 /* HomeViewController.m */,
 				4448A0D41A9DA77300D05655 /* AppDelegate.h */,
 				4448A0D51A9DA77300D05655 /* AppDelegate.m */,
-				4448A0D71A9DA77300D05655 /* ViewController.h */,
-				4448A0D81A9DA77300D05655 /* ViewController.m */,
 				4448A0DA1A9DA77300D05655 /* Main.storyboard */,
 				4448A0DD1A9DA77300D05655 /* Images.xcassets */,
 				4448A0DF1A9DA77300D05655 /* LaunchScreen.xib */,
@@ -96,6 +103,8 @@
 		4448A0D01A9DA77300D05655 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4448A1211AA5F17500D05655 /* Localizable.strings */,
+				4448A11B1AA5EA9D00D05655 /* Preference.plist */,
 				4448A0D11A9DA77300D05655 /* Info.plist */,
 				4448A0D21A9DA77300D05655 /* main.m */,
 			);
@@ -182,6 +191,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 4448A0C41A9DA77200D05655;
 			productRefGroup = 4448A0CE1A9DA77300D05655 /* Products */;
@@ -199,7 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4448A1231AA5F17500D05655 /* Localizable.strings in Resources */,
 				4448A0DC1A9DA77300D05655 /* Main.storyboard in Resources */,
+				4448A11C1AA5EA9D00D05655 /* Preference.plist in Resources */,
 				4448A0E11A9DA77300D05655 /* LaunchScreen.xib in Resources */,
 				4448A0DE1A9DA77300D05655 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4448A0D91A9DA77300D05655 /* ViewController.m in Sources */,
 				4448A0D61A9DA77300D05655 /* AppDelegate.m in Sources */,
 				4448A0D31A9DA77300D05655 /* main.m in Sources */,
+				4448A11A1AA5DC4200D05655 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +260,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4448A0DB1A9DA77300D05655 /* Base */,
+				4448A11D1AA5F0C200D05655 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,8 +269,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				4448A0E01A9DA77300D05655 /* Base */,
+				4448A11E1AA5F0C200D05655 /* zh-Hant */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4448A1211AA5F17500D05655 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4448A1221AA5F17500D05655 /* Base */,
+				4448A1241AA5F18800D05655 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -344,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iHelp_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iHelp_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +438,7 @@
 				4448A0F21A9DA77300D05655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4448A0F31A9DA77300D05655 /* Build configuration list for PBXNativeTarget "iHelp_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +447,7 @@
 				4448A0F51A9DA77300D05655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
